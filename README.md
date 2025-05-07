@@ -4,12 +4,12 @@ This project demonstrates real-time **surgical tool detection** using the **YOLO
 
 ## 🔧 Features
 
-- 🎤 Voice-controlled object detection (no button presses required)
-- 🛠 Detection of surgical tools using YOLO11n
-- 💡 Robust under challenging conditions: blur, lighting variations, blood presence, and diverse angles
-- 🧠 Multi-threaded continuous listening + real-time detection
-- 📼 Real-time detection on looped video stream
-- ✅ GPU-accelerated if available
+- 🎤 Voice-controlled object detection.
+- 🛠 Detection of surgical tools using YOLO11n.
+- 💡 Robust under challenging conditions: blur, lighting variations, blood presence, and diverse angles.
+- 🧠 Multi-threaded continuous listening + real-time detection.
+- 📼 Real-time detection on looped video stream.
+- ✅ GPU-accelerated if available.
 
 ## 🖼️ Example Tools
 
@@ -28,10 +28,8 @@ This project demonstrates real-time **surgical tool detection** using the **YOLO
 ```bash
 📁 project-root/
 │
-├── model/                            # Contains trained YOLOv8/YOLO11n model
-│   └── best.pt
-├── video/                            # Input surgical video(s)
-│   └── v5.mp4
+├── best.pt                            # Contains trained YOLO11n model
+├── v5.mp4                            # Input surgical video(s)
 ├── main.py                           # Main script
 └── README.md
 ```
@@ -41,7 +39,7 @@ This project demonstrates real-time **surgical tool detection** using the **YOLO
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/voice-guided-surgical-detection.git
+git clone https://github.com/Bhavesh2618/voice-guided-surgical-detection.git
 cd voice-guided-surgical-detection
 ```
 
@@ -71,7 +69,7 @@ Saying **"exit"** will stop the program.
 
 ## 💡 Model Training
 
-The YOLO11n model used here was trained on a **custom dataset of 6000+ surgical tool images** captured under edge conditions:
+The YOLO11n model used here was trained on a **custom dataset of 6000 surgical tool images** captured under edge conditions:
 - Low light and overexposure
 - Motion blur
 - Blood-stained scenes
