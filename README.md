@@ -77,6 +77,12 @@ The YOLO11n model used here was trained on a **custom dataset of 6000 surgical t
 
 The trained model achieved **92.7% accuracy** under these conditions.
 
+## 🖼️ Sample Output
+
+Below is a sample output of the system detecting the command and object `forceps`:
+
+![Output Example](output.png)
+
 ## 🖥️ Hardware
 
 - Compatible with both CPU and GPU
